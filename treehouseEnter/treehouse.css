@@ -20,3 +20,50 @@ html{
     justify-content: space-between;
     
 }
+
+header{
+    width: 100%;
+    padding: 60px 4%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+header i{
+    font-size: 30px;
+    color:#fff;
+}
+
+header ul{
+    list-style-type: none;
+}
+
+header ul li{
+    display: inline-block;
+    margin: 0 40px;
+}
+
+header ul li a {
+    color: #fff;
+}
+
+.banner{
+    height: 100vh;
+    width: auto;
+    background-image: url(IMG_8697.JPG);
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner h1{
+    font-size: 4em;
+}
+
+.banner h1 span{
+    color#fff;
+}
