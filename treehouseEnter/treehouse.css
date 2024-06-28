@@ -27,7 +27,19 @@ header{
     position: fixed;
     top: 0;
     left: 0;
+    transition: 1s;
 }
+
+header.rolagem{
+    background-color: rgba(36, 16, 5, 0.938);
+    padding: 30px 4%;
+}
+
+header.rolagem a, header.rolagem i{
+    color: bisque;
+    text-decoration: none;
+}
+
 
 header i{
     font-size: 30px;
@@ -41,29 +53,38 @@ header ul{
 header ul li{
     display: inline-block;
     margin: 0 40px;
+    
 }
 
 header ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.insta-btn  {
+    text-decoration: none;
+    padding: 6px 15px;
     color: #fff;
+    border-radius: 20px;
 }
 
 .banner{
-    height: 100vh;
-    width: auto;
-    background-image: url(IMG_8697.JPG);
+    height: auto;
+    max-width: 100%;
+    background-image: url(entadaimagem.JPG);
     background-position: 50% 0;
     background-repeat: no-repeat;
     background-size: cover;
-
-    display: flex;
+    display:flex;
     align-items: center;
     justify-content: center;
 }
 
 .banner h1{
     font-size: 4em;
+    color: bisque;
 }
 
 .banner h1 span{
-    color#fff;
+    color:#fff;
 }
